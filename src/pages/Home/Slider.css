@@ -1,0 +1,28 @@
+.slider {
+  height: 100vh;
+  overflow: hidden;
+}
+.mySwiper {
+  background-image: url("../../images/slider-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+}
+.slider-info {
+  margin-top: -350px;
+}
+.slider-info h1 {
+  line-height: 70px;
+}
+.common-btn {
+  text-transform: capitalize;
+  padding: 12px 45px;
+  font-weight: 700;
+  margin-top: 10px;
+  transition: all 0.3s;
+  border: 1px solid #f7444e;
+}
+.common-btn:hover {
+  background-color: transparent;
+  color: #f7444e;
+}
