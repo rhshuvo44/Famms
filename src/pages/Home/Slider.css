@@ -1,6 +1,7 @@
 .slider {
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
+  
 }
 .mySwiper {
   background-image: url("../../images/slider-bg.jpg");
@@ -13,6 +14,9 @@
 }
 .slider-info h1 {
   line-height: 70px;
+}
+.slider-info h1 span{
+  margin-bottom: 20px;
 }
 .common-btn {
   text-transform: capitalize;
