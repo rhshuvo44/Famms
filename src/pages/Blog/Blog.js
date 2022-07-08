@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../Home/About";
+import Footer from "../Shared/Footer";
 
 const Blog = () => {
   return (
@@ -8,6 +9,7 @@ const Blog = () => {
         blog list{" "}
       </h1>
       <About />
+      <Footer/>
     </div>
   );
 };
