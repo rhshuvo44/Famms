@@ -1,4 +1,4 @@
-import React from "react";
+import Footer from "../Shared/Footer";
 import About from "./About";
 import Arrival from "./Arrival";
 import HomeProducts from "./HomeProducts";
@@ -10,11 +10,12 @@ const Home = () => {
   return (
     <div>
       <Slider />
-      <About/>
-      <Arrival/>
-      <HomeProducts/>
-      <Subscribe/>
-      <Testimonial/>
+      <About />
+      <Arrival />
+      <HomeProducts />
+      <Subscribe />
+      <Testimonial />
+      <Footer />
     </div>
   );
 };

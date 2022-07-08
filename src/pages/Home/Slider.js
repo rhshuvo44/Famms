@@ -1,12 +1,25 @@
-import React from "react";
-import "./Slider.css";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "./Slider.css";
 
 const slider = () => {
   return (
     <div className="slider">
-      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+      <Swiper
+        pagination={true}
+        modules={[Pagination]}
+        breakpoints={{
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 1,
+          },
+        }}
+        className="mySwiper"
+      >
         <SwiperSlide>
           <div class="hero h-screen">
             <div class="hero-content flex-col lg:flex-row-reverse">

@@ -18,7 +18,7 @@ const Testimonial = () => {
           },
           // when window width is >= 768px
           768: {
-            slidesPerView: 3,
+            slidesPerView: 1,
           },
         }}
         className="swiper"
