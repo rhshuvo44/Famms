@@ -7,7 +7,7 @@ const HomeProducts = () => {
         Our <span className="text-primary">Products</span>
       </h1>
       <hr className="drive" />
-      <Link to="/products" class="common-btn btn-primary">
+      <Link to="/products" className="common-btn btn-primary">
         view all products
       </Link>
     </div>

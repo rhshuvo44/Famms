@@ -15,28 +15,28 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Enter Your Full Name"
-            class="input input-bordered w-full  mb-10"
+            className="input input-bordered w-full  mb-10"
             {...register("name")}
           />
           <input
             type="text"
             placeholder="Enter Your Emaill Address"
-            class="input input-bordered w-full  mb-10"
+            className="input input-bordered w-full  mb-10"
             {...register("email")}
           />
           <input
             type="text"
             placeholder="Enter Subject"
-            class="input input-bordered w-full  mb-10"
+            className="input input-bordered w-full  mb-10"
             {...register("subject")}
           />
           <textarea
             placeholder="Enter Your Message"
-            class="input input-bordered h-40 w-full  mb-10"
+            className="input input-bordered h-40 w-full  mb-10"
             {...register("message")}
           />
 
-          <button class="submit-btn text-white bg-black w-1/4 mx-auto">
+          <button className="submit-btn text-white bg-black w-1/4 mx-auto">
             Submit
           </button>
         </form>

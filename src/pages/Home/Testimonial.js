@@ -24,21 +24,21 @@ const Testimonial = () => {
         className="swiper"
       >
         <SwiperSlide>
-          <div class="card w-full md:w-3/4 m-auto">
+          <div className="card w-full md:w-3/4 m-auto">
             <figure className="mt-8">
-              <div class="avatar">
-                <div class="w-40 h-40 rounded-full">
+              <div className="avatar">
+                <div className="w-40 h-40 rounded-full">
                   <img src={client} alt="Shoes" />
                 </div>
               </div>
             </figure>
-            <div class="">
-              <h2 class="text-center font-bold sm:text-2xl mt-10 md:text-3xl">
+            <div className="">
+              <h2 className="text-center font-bold sm:text-2xl mt-10 md:text-3xl">
                 Anna Trevor
               </h2>
               <h2
                 style={{ color: "#999998" }}
-                class="text-center font-bold text-2xl"
+                className="text-center font-bold text-2xl"
               >
                 Customer
               </h2>
@@ -52,21 +52,21 @@ const Testimonial = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="card sm:w-full md:w-3/4 m-auto">
+          <div className="card sm:w-full md:w-3/4 m-auto">
             <figure className="mt-8">
-              <div class="avatar">
-                <div class="w-40 h-40 rounded-full">
+              <div className="avatar">
+                <div className="w-40 h-40 rounded-full">
                   <img src={client} alt="Shoes" />
                 </div>
               </div>
             </figure>
-            <div class="">
-              <h2 class="text-center font-bold sm:text-2xl md:text-3xl mt-10">
+            <div className="">
+              <h2 className="text-center font-bold sm:text-2xl md:text-3xl mt-10">
                 Anna Trevor
               </h2>
               <h2
                 style={{ color: "#999998" }}
-                class="text-center font-bold text-2xl"
+                className="text-center font-bold text-2xl"
               >
                 Customer
               </h2>
@@ -80,21 +80,21 @@ const Testimonial = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="card sm:w-full md:w-3/4 m-auto">
+          <div className="card sm:w-full md:w-3/4 m-auto">
             <figure className="mt-8">
-              <div class="avatar">
-                <div class="w-40 h-40 rounded-full">
+              <div className="avatar">
+                <div className="w-40 h-40 rounded-full">
                   <img src={client} alt="Shoes" />
                 </div>
               </div>
             </figure>
-            <div class="">
-              <h2 class="text-center font-bold sm:text-2xl md:text-3xl mt-10">
+            <div className="">
+              <h2 className="text-center font-bold sm:text-2xl md:text-3xl mt-10">
                 Anna Trevor
               </h2>
               <h2
                 style={{ color: "#999998" }}
-                class="text-center font-bold text-2xl"
+                className="text-center font-bold text-2xl"
               >
                 Customer
               </h2>

@@ -4,7 +4,7 @@ import logo from "../../images/logo.png";
 const HomeFooter = () => {
   return (
     <div>
-      <footer class="footer p-16 bg-[#F8F8F8] text-base-content">
+      <footer className="footer p-16 bg-[#F8F8F8] text-base-content">
         <div>
           <img width="250" src={logo} alt="" />
           <p className="w-3/4 py-2">
@@ -20,68 +20,68 @@ const HomeFooter = () => {
           </p>
         </div>
         <div>
-          <span class="footer-title ">menu</span>
-          <a class="link link-hover" href="#home">
+          <span className="footer-title ">menu</span>
+          <a className="link link-hover" href="#home">
             Home
           </a>
-          <a class="link link-hover" href="#about">
+          <a className="link link-hover" href="#about">
             About
           </a>
-          <a class="link link-hover" href="#services">
+          <a className="link link-hover" href="#services">
             Services
           </a>
-          <a class="link link-hover" href="#testimonial">
+          <a className="link link-hover" href="#testimonial">
             Testimonial
           </a>
-          <Link class="link link-hover" to="blog">
+          <Link className="link link-hover" to="blog">
             Blog
           </Link>
-          <a class="link link-hover" href="#contact">
+          <a className="link link-hover" href="#contact">
             Contact
           </a>
         </div>
         <div>
-          <span class="footer-title" href="r">
+          <span className="footer-title" href="r">
             ACCOUNT
           </span>
-          <a class="link link-hover" href="r">
+          <a className="link link-hover" href="r">
             Account
           </a>
-          <a class="link link-hover" href="r">
+          <a className="link link-hover" href="r">
             Checkout
           </a>
-          <a class="link link-hover" href="r">
+          <a className="link link-hover" href="r">
             Login
           </a>
-          <a class="link link-hover" href="r">
+          <a className="link link-hover" href="r">
             Register
           </a>
-          <a class="link link-hover" href="r">
+          <a className="link link-hover" href="r">
             Shopping
           </a>
         </div>
         <div>
-          <span class="footer-title">Newsletter</span>
-          <div class="form-control w-80">
-            <label class="label">
-              <span class="label-text">
+          <span className="footer-title">Newsletter</span>
+          <div className="form-control w-80">
+            <label className="label">
+              <span className="label-text">
                 Subscribe by our newsletter and get update protidin.
               </span>
             </label>
-            <div class="relative">
+            <div className="relative">
               <input
                 type="text"
                 placeholder="username@site.com"
-                class="input input-bordered w-full pr-16"
+                className="input input-bordered w-full pr-16"
               />
-              <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">
+              <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
                 Subscribe
               </button>
             </div>
           </div>
         </div>
       </footer>
-      <footer class="footer footer-center p-10 bg-black text-white">
+      <footer className="footer footer-center p-10 bg-black text-white">
         <div>
           <p>Copyright © 2022 - All right reserved by Famms Industries Ltd</p>
         </div>

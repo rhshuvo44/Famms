@@ -1,5 +1,4 @@
-import React from "react";
-import { TbTruckDelivery, TbFreeRights, TbCertificate } from "react-icons/tb";
+import { TbCertificate, TbFreeRights, TbTruckDelivery } from "react-icons/tb";
 
 const About = () => {
   return (
@@ -9,40 +8,40 @@ const About = () => {
       </h1>
       <hr className="drive" />
       <div className="cards py-10 grid md:grid-cols-3 gap-5">
-        <div class="card bg-accent text-white py-5 rounded-none">
+        <div className="card bg-accent text-white py-5 rounded-none">
           <figure>
             <div>
               <TbTruckDelivery className="w-14 h-auto pt-2" />
             </div>
           </figure>
-          <div class="card-body text-center px-10">
-            <h2 class="font-bold text-3xl">Free Shiping</h2>
+          <div className="card-body text-center px-10">
+            <h2 className="font-bold text-3xl">Free Shiping</h2>
             <p className="px-10">
               variations of passages of Lorem Ipsum available
             </p>
           </div>
         </div>
-        <div class="card bg-accent text-white py-5 rounded-none">
+        <div className="card bg-accent text-white py-5 rounded-none">
           <figure>
             <div>
               <TbFreeRights className="w-14 h-auto pt-2" />
             </div>
           </figure>
-          <div class="card-body text-center px-10">
-            <h2 class="font-bold text-3xl">Fast Delivery</h2>
+          <div className="card-body text-center px-10">
+            <h2 className="font-bold text-3xl">Fast Delivery</h2>
             <p className="px-10">
               variations of passages of Lorem Ipsum available
             </p>
           </div>
         </div>
-        <div class="card bg-accent text-white py-5 rounded-none">
+        <div className="card bg-accent text-white py-5 rounded-none">
           <figure>
             <div>
               <TbCertificate className="w-14 h-auto pt-2" />
             </div>
           </figure>
-          <div class="card-body text-center px-10">
-            <h2 class="font-bold text-3xl">Best Quality</h2>
+          <div className="card-body text-center px-10">
+            <h2 className="font-bold text-3xl">Best Quality</h2>
             <p className="px-10">
               variations of passages of Lorem Ipsum available
             </p>

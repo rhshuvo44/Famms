@@ -1,4 +1,3 @@
-import React from "react";
 
 const Subscribe = () => {
   return (
@@ -15,11 +14,11 @@ const Subscribe = () => {
           <input
             type="text"
             placeholder="Enter Your Email"
-            class="input w-full rounded-full mb-10"
+            className="input w-full rounded-full mb-10"
           />
           <button
             style={{ textTransform: "uppercase" }}
-            class="common-btn btn-primary w-2/4 m-auto rounded-full"
+            className="common-btn btn-primary w-2/4 m-auto rounded-full"
           >
             Subscribe
           </button>
