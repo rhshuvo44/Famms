@@ -1,6 +1,6 @@
-import Footer from "../Shared/Footer";
 import About from "./About";
 import Arrival from "./Arrival";
+import HomeFooter from "./HomeFooter";
 import HomeProducts from "./HomeProducts";
 import Slider from "./Slider";
 import Subscribe from "./Subscribe";
@@ -15,7 +15,7 @@ const Home = () => {
       <HomeProducts />
       <Subscribe />
       <Testimonial />
-      <Footer />
+      <HomeFooter/>
     </div>
   );
 };
