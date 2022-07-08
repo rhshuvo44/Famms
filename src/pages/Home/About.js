@@ -1,19 +1,13 @@
 import React from "react";
 import { TbTruckDelivery, TbFreeRights, TbCertificate } from "react-icons/tb";
-const drive = {
-  height: "7px",
-  "background-color": "red",
-  width: "100px",
-  "text-align": "center",
-  margin: "20px auto",
-};
+
 const About = () => {
   return (
     <div className="p-16">
       <h1 className="text-center font-bold text-6xl capitalize">
         why shop with us
       </h1>
-      <hr style={drive} />
+      <hr className="drive" />
       <div className="cards py-10 grid md:grid-cols-3 gap-5">
         <div class="card bg-accent text-white py-5 rounded-none">
           <figure>

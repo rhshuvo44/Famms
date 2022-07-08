@@ -5,6 +5,7 @@ import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
 import Footer from "./pages/Shared/Footer";
 import Navbar from "./pages/Shared/Navbar";
+import "./App.css";
 
 function App() {
   return (

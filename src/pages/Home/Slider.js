@@ -8,11 +8,11 @@ const slider = () => {
     <div className="slider">
       <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
         <SwiperSlide>
-          <div class="hero min-h-screen">
+          <div class="hero h-screen">
             <div class="hero-content flex-col lg:flex-row-reverse">
               <div className="w-2/4"></div>
-              <div className="slider-info px-20">
-                <h1 class="text-7xl text-accent font-bold">
+              <div className="slider-info px-8 md:px-20">
+                <h1 class="text-6xl md:text-7xl text-accent font-bold">
                   <span className="text-primary mb-10"> Sale 20% Off</span>{" "}
                   <br /> On Everything{" "}
                 </h1>
@@ -31,10 +31,10 @@ const slider = () => {
           <div class="hero min-h-screen">
             <div class="hero-content flex-col lg:flex-row-reverse">
               <div className="w-2/4"></div>
-              <div className="slider-info px-20">
-                <h1 class="text-7xl text-accent font-bold">
-                  <span className="text-primary"> Sale 20% Off</span>{" "}
-                  <br /> On Everything{" "}
+              <div className="slider-info px-8 md:px-20">
+                <h1 class="text-6xl md:text-7xl text-accent font-bold">
+                  <span className="text-primary"> Sale 20% Off</span> <br /> On
+                  Everything{" "}
                 </h1>
                 <p class="py-6  w-2/3">
                   Explicabo esse amet tempora quibusdam laudantium, laborum
@@ -51,8 +51,8 @@ const slider = () => {
           <div class="hero min-h-screen">
             <div class="hero-content flex-col lg:flex-row-reverse">
               <div className="w-2/4"></div>
-              <div className="slider-info px-20">
-                <h1 class="text-7xl text-accent font-bold">
+              <div className="slider-info px-8 md:px-20">
+                <h1 class="text-6xl md:text-7xl text-accent font-bold">
                   <span className="text-primary mb-10"> Sale 20% Off</span>{" "}
                   <br /> On Everything{" "}
                 </h1>
@@ -67,7 +67,6 @@ const slider = () => {
             </div>
           </div>
         </SwiperSlide>
-     
       </Swiper>
     </div>
   );
